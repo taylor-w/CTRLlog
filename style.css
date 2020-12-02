@@ -1,0 +1,43 @@
+body {
+  background: url(https://source.unsplash.com/U_Ff4ohzLSw/1920x1080) center;
+  font-family: "Oswald", sans-serif;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1%;
+}
+
+h1 {
+  padding: 2%;
+  text-align: center;
+}
+
+#journal {
+  background-color: rgba(207, 201, 190, 0.26);
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  height: 500px;
+  width: 55%;
+}
+
+#journal-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#left-nav {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 70px;
+}
+
+#right-nav {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 70px;
+}
