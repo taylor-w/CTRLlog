@@ -1,4 +1,4 @@
-import form from "./src/components";
+import { form } from "./components/index.js";
 
 const root = document.getElementById("root");
 

@@ -1,12 +1,7 @@
-const header = document.getElementById("journal-header");
-
-const date = () => {
-  const dt = new Date();
-  header.innerHTML = dt.toLocaleDateString();
-};
+const dt = new Date();
 
 export default () => `
 <span id="journal-header">
-  ${date()}
+  ${dt.toLocaleDateString()}
 </span>
 `;
