@@ -1,3 +1,4 @@
+import rightnav from "./rightnav.js";
 import text from "./text.js";
 
 export default () => `
@@ -7,7 +8,7 @@ export default () => `
     <span id="journal-header">
       Date/Time *css class w/ js*
     </span>
-  <span id="right-nav">&#8594;</span>
+  ${rightnav()}
 </label>
 ${text()}
 </form>
