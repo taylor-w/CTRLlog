@@ -1,2 +1,1 @@
-// eslint-disable-next-line import/prefer-default-export
-export { date } from "./lib/index";
+export { default as lib } from "./lib/index.js";
