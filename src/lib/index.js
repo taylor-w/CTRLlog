@@ -1,2 +1,5 @@
-// eslint-disable-next-line import/prefer-default-export
-export { default as date } from "./date";
+import date from "./date.js";
+
+export default () => {
+  date();
+};
