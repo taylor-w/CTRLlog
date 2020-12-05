@@ -20,7 +20,7 @@ Testing with [Jest](https://jestjs.io/docs/en/getting-started) is also included 
 
 #### This project's first goal will be:
 
-- Utilizing modern web development techniques to create a frontend framework for this web app
+- Utilizing functional modern web development techniques to create a frontend framework for this web app
 
 ---
 
