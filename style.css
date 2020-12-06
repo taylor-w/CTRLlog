@@ -1,6 +1,15 @@
 :root {
   --splash-img: url(https://source.unsplash.com/U_Ff4ohzLSw/1920x1080);
-  --journal-color: rgba(207, 201, 190, 0.26);
+  --journal-color: rgba(
+    var(--journal-r),
+    var(--journal-g),
+    var(--journal-b),
+    var(--jounral-o)
+  );
+  --journal-r: 207;
+  --journal-g: 201;
+  --journal-b: 190;
+  --jounral-o: 0.25;
 }
 
 body {
