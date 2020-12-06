@@ -1,5 +1,6 @@
 :root {
   --splash-img: url(https://source.unsplash.com/U_Ff4ohzLSw/1920x1080);
+  --journal-color: rgba(207, 201, 190, 0.26);
 }
 
 body {
@@ -21,7 +22,7 @@ h1 {
 }
 
 #journal {
-  background-color: rgba(207, 201, 190, 0.26);
+  background-color: var(--journal-color);
   border: none;
   font-size: 18px;
   font-weight: bold;
