@@ -1,11 +1,12 @@
-import { form } from "./components/index.js";
-import theme from "./components/form/theme.js";
+import { form, settings } from "./components/index.js";
 
 const root = document.getElementById("root");
 
 const render = () => {
-  root.innerHTML = form();
-  theme();
+  root.innerHTML = `
+  ${form()}
+  `;
 };
 
 render();
+settings();
