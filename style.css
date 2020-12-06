@@ -1,5 +1,9 @@
+:root {
+  --splash-img: url(https://source.unsplash.com/U_Ff4ohzLSw/1920x1080);
+}
+
 body {
-  background: url(https://source.unsplash.com/U_Ff4ohzLSw/1920x1080) center;
+  background: var(--splash-img) center;
   font-family: "Oswald", sans-serif;
 }
 
