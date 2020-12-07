@@ -9,7 +9,7 @@
   --journal-r: 207;
   --journal-g: 201;
   --journal-b: 190;
-  --jounral-o: 0.25;
+  --jounral-o: 0.5;
   --text-color: black;
 }
 
@@ -44,10 +44,11 @@ h4 {
 #journal {
   background-color: var(--journal-color);
   border: none;
+  border-radius: 10px;
   color: var(--text-color);
   font-size: 18px;
   font-weight: bold;
-  height: 500px;
+  height: 600px;
   width: 55%;
 }
 
