@@ -8,24 +8,30 @@
 </head>
 <body>
 
-  <div id="theme-settings">
-    <input type="text" name="img-text" id="img-text" placeholder="Enter Background Theme">
-    <button name="img-btn" id="img-btn">Change Theme</button>
-    <br>
-    <label>Journal Background Color</label>
-    <br>
-      <label>Red Scale</label>
-      <input type="range" min="0" max="255" name="j-bg-r" id="j-bg-r">
+  <div id="settings">
+    <h2>Settings</h2>
+    <div id="theme-settings">
+      <input type="text" name="img-text" id="img-text" placeholder="Enter Background Theme">
+      <button name="img-btn" id="img-btn">Change Theme</button>
       <br>
-      <label>Green Scale</label>
-      <input type="range" min="0" max="255" name="j-bg-g" id="j-bg-g">
-      <br>
-      <label>Blue Scale</label>
-      <input type="range" min="0" max="255" name="j-bg-b" id="j-bg-b">
-      <br>
-      <label>Text Color</label>
-      <input type="color" name="text-color" id="text-color">
     </div>
+    <div id="journal-settings">
+      <label>Journal Background Color</label>
+      <br>
+        <label>Red Scale</label>
+          <input type="range" min="0" max="255" name="j-bg-r" id="j-bg-r">
+          <br>
+        <label>Green Scale</label>
+          <input type="range" min="0" max="255" name="j-bg-g" id="j-bg-g">
+          <br>
+        <label>Blue Scale</label>
+          <input type="range" min="0" max="255" name="j-bg-b" id="j-bg-b">
+          <br>
+        <label>Text Color</label>
+          <input type="color" name="text-color" id="text-color">
+    </div>
+    <button>Hide Settings</button>
+  </div>
 
   <h1>CTRL log</h1>
 
