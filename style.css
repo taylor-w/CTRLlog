@@ -77,3 +77,16 @@ h1 {
 #theme-settings {
   padding: 5px;
 }
+
+.is-collapsed {
+  height: 0;
+  padding: 0;
+  transform: scaleY(0);
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}
+
+.is-expanded {
+  opacity: 1;
+  transform: scaleY(1);
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
