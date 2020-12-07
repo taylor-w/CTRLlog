@@ -46,6 +46,10 @@ h1 {
   font-weight: bold;
 }
 
+#journal-settings {
+  padding: 10px;
+}
+
 #left-nav {
   font-size: 24px;
   font-weight: bold;
@@ -56,4 +60,20 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   padding-left: 70px;
+}
+
+#settings {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.705);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 10px;
+}
+
+#theme-settings {
+  padding: 5px;
 }
