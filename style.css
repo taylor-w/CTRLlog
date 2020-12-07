@@ -10,6 +10,7 @@
   --journal-g: 201;
   --journal-b: 190;
   --jounral-o: 0.25;
+  --text-color: black;
 }
 
 body {
@@ -33,6 +34,7 @@ h1 {
 #journal {
   background-color: var(--journal-color);
   border: none;
+  color: var(--text-color);
   font-size: 18px;
   font-weight: bold;
   height: 630px;
